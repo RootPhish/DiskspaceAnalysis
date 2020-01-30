@@ -1,0 +1,13 @@
+{
+    "//": "manifest section",
+    "Wouter_SonneveldtDiskspace_Manifest_displayName": "Diskspace",
+    "Wouter_SonneveldtDiskspace_Manifest_description": "{!product-description}",
+    "Wouter_SonneveldtDiskspace_Manifest_keywords": "SME",
+
+    "//": "Diskspace",
+    "Wouter_SonneveldtDiskspace_title": "Diskspace",
+
+    "//": "about",
+    "Wouter_SonneveldtDiskspace_about": "{!product-about}",
+    "Wouter_SonneveldtDiskspace_aboutDescription": "{!product-about-description}"
+}

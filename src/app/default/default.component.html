@@ -1,0 +1,9 @@
+<sme-tool-header>Disk Space Analysis</sme-tool-header>
+<div class="sme-layout-relative sme-position-flex-auto">
+  <sme-data-table #simpleDataTable [items]="services" [(selection)]="selectedData1" class="sme-layout-absolute sme-position-inset-none"
+    [defaultSortColumn]="customSortColumn" [defaultSortMode]="1" style="height: 300px;" >
+    <sme-data-table-column field="deviceID" header="Drive Letter" sortable="true"></sme-data-table-column>
+    <sme-data-table-column field="capacityGB" header="Capacity" sortable="true"></sme-data-table-column>
+    <sme-data-table-column field="freeSpaceGB" header="Free Space" sortable="true"></sme-data-table-column>
+  </sme-data-table>
+</div>
