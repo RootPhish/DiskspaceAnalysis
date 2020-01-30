@@ -24,7 +24,7 @@ export class DiskService {
                     const container = {
                         deviceID: item.deviceID,
                         capacityGB: item.capacityGB,
-                        freeSpaceGB: item.freeSpaceGB                        
+                        freeSpaceGB: item.freeSpaceGB
                     };
                     items.push(container);
                 }
